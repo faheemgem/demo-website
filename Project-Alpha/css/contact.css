@@ -1,0 +1,90 @@
+body{
+	margin-left: 20px;
+}
+h1{    
+    color: yellowgreen;
+}
+
+header img{
+	height: 50px;
+	margin: 20px 0;
+}
+
+.contact_info{
+	margin-top: 5%;
+	margin-left: 20%;
+}
+
+.info {
+	margin-top: 50px;
+	margin-left: 20%;
+}
+
+.firstName{
+	margin-top: 10px;
+	height: 30px;
+	width: 200px;
+	margin-right: 20px;
+}
+
+.lastName{
+	height: 30px;
+	width: 200px;
+}
+
+.emailLabel{
+	margin-top: 20px;
+	position: relative;
+	display: block;
+}
+
+.emailInput{
+	margin-top: 10px;
+	height: 30px;
+	width: 250px;
+	position: relative;
+	display: block;
+}
+
+#txtarea{
+	margin-top: 10px;
+}
+
+.contact{
+	display: block;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.byPhone{
+	display: block;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.byEmail{
+	display: block;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.btn-submit{
+	display: block;
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 25px;
+	width: 100px;
+}
+
+.socialMedia{
+	color:yellowgreen;
+	margin-top: 30px;
+	margin-left: 20%;
+}
+
+.socialMedia .fab{
+	padding-right: 10px;
+}

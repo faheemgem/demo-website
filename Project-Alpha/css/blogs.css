@@ -1,0 +1,40 @@
+body{
+    margin-left: 20px;
+}
+h1{    
+    color: yellowgreen;
+}
+h3{
+    padding-top: 40px;
+    margin: 5px 0;
+}
+h6 {
+    color: gray;
+    margin: 5px 0;
+}
+
+.text1 { grid-area: text1;}
+.text2 { grid-area: text2;}
+.text3 { grid-area: text3;}
+.text4 { grid-area: text4;}
+.text5 { grid-area: text5;}
+.text6 { grid-area: text6;}
+
+
+.grid-container{
+    display: grid;
+    grid-auto-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    grid-auto-rows: auto;
+    grid-template-areas: 
+    'text1 text2 text3 text4 text5 text6';
+    grid-gap: 20px;
+    margin-top: 20px;
+    align-items: stretch;
+    font-size: 14px;
+    
+}
+
+header img{
+	height: 50px;
+	margin: 20px 0;
+}

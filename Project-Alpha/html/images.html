@@ -1,0 +1,23 @@
+<div class="container">
+        <div id="slideshow">
+            <img alt="slideshow" src="http://thumb7.shutterstock.com/photos/thumb_large/253822/156271139.jpg" id="imgClickAndChange" onclick="changeImage()" />
+        </div>
+    </div>
+    <script>
+        var imgs = ["http://thumb7.shutterstock.com/photos/thumb_large/253822/156271139.jpg", "http://thumb9.shutterstock.com/photos/thumb_large/554278/132632972.jpg", "http://thumb7.shutterstock.com/photos/thumb_large/101304/133879079.jpg", "http://thumb101.shutterstock.com/photos/thumb_large/422038/422038,1327874090,3.jpg", "http://thumb1.shutterstock.com/photos/thumb_large/975647/149914934.jpg", "http://thumb9.shutterstock.com/photos/thumb_large/195826/148988282.jpg"];
+    
+        function changeImage(dir) {
+            var img = document.getElementById("imgClickAndChange");
+            img.src = imgs[imgs.indexOf(img.src) + (dir || 1)] || imgs[dir ? imgs.length - 1 : 0];
+        }
+    
+        document.onkeydown = function(e) {
+            e = e || window.event;
+            if (e.keyCode == '37') {
+                changeImage(-1) //left <- show Prev image
+            } else if (e.keyCode == '39') {
+                // right -> show next image
+                changeImage()
+            }
+        }
+    </script>

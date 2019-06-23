@@ -1,0 +1,15 @@
+h1{
+    margin: 20px;
+    color: yellowgreen;
+}
+
+header img{
+	height: 50px;
+	margin: 20px 0;
+}
+
+.map img {
+    padding-top: 20px;
+    margin-left: 15%;
+    width: 70%;
+}
